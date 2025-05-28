@@ -39,7 +39,7 @@ function App() {
   }, [length, numberAllowed, charAllowed, passwordGenerator])
   return (
     <div className="flex items-center justify-center h-screen bg-gray-900">
-      <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3  bg-pink-700 text-orange-500  bg-pink-800 p-6 rounded-lg shadow-xl text-white w-[400px]">
+      <div className="w-full max-w-md mx-auto px-4 py-3  bg-pink-800 p-6 rounded-lg shadow-xl text-white ">
         <h1 className='text-pink-100 font-bold italic text-2xl text-center my-3'>Password generator</h1>
         <div className="flex shadow rounded-lg overflow-hidden mb-4 bg-white text-black">
           <input
